@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ["studylan-app.azurewebsites.net"]
 # Application definition
 
 INSTALLED_APPS = [
+    "corsheaders",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -39,7 +40,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "base.apps.BaseConfig",
     "rest_framework",
-    "corsheaders",
 ]
 
 MIDDLEWARE = [
