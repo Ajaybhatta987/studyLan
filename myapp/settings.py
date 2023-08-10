@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     "base.apps.BaseConfig",
     
     "rest_framework",
-     "corsheaders",
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
