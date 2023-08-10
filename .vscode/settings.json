@@ -1,0 +1,8 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "appService.defaultWebAppToDeploy": "/subscriptions/0bb4d08f-7d5f-4dd0-86c0-a057604889c6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/studylan-app",
+    "appService.deploySubpath": "."
+}
